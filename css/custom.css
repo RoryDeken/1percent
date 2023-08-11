@@ -1,0 +1,21 @@
+.btn {
+  border-radius: 0;
+}
+.btn-primary {
+  background-color: #fff;
+  color: #000;
+  border-color: #fff;
+}
+.bg-primary {
+  background-color: #000 !important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: transparent;
+  color: #fff;
+  border-color: #fff;
+}
+.btn.disabled {
+  background-color: #000;
+  border-color: #000;
+}
