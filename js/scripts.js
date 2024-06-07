@@ -5,6 +5,6 @@
  */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
-let year = New Date().getFullYear();
+let year = new Date().getFullYear();
 let years = document.querySelectorAll(".year");
 for (let i = 0; i < elems.length; i++) years[i].textContent = year;
