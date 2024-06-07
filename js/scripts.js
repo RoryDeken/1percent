@@ -7,4 +7,4 @@
 // Use this file to add JavaScript to your project
 let year = new Date().getFullYear();
 let years = document.querySelectorAll(".year");
-for (let i = 0; i < elems.length; i++) years[i].textContent = year;
+for (let i = 0; i < years.length; i++) years[i].textContent = year;
